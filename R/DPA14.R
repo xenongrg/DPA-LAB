@@ -27,5 +27,34 @@ df <- data.frame(
 print(df)
 
 cat("\nFACTOR:\n")
-gender <- factor(c("Male", "Female", "Male", "Female"))
-print(gender)
+size <- factor(
+    c("Small", "Large", "Small", "Medium", "Small", "Large"),
+    levels = c("Small", "Medium", "Large"),
+    ordered = TRUE
+)
+print(size)
+
+
+# ***OUTPUT***
+# VECTOR:
+# [1] 1 2 3 4 5 6
+
+# ARRAY:
+#      [,1] [,2] [,3]
+# [1,]    1    3    5
+# [2,]    2    4    6
+
+# MATRIX:
+#      [,1] [,2] [,3]
+# [1,]    1    3    5
+# [2,]    2    4    6
+
+# DATA FRAME:
+#   RollNo    Name Marks
+# 1      1    Amit    90
+# 2      2 Nishant    85
+# 3      3     Sam    80
+
+# FACTOR:
+# [1] Small  Large  Small  Medium Small  Large
+# Levels: Small < Medium < Large

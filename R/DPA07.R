@@ -11,3 +11,7 @@ factorial_user <- function(n) {
 
 
 print(factorial_user(4))
+
+
+# ***OUTPUT***
+# [1] 24

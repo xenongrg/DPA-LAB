@@ -6,3 +6,7 @@ b <- 2
 x <- 2
 result <- (a * x + b) / (a * x - b)
 cat("Result =", result, "\n")
+
+
+# ***OUTPUT***
+# Result = 3

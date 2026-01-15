@@ -14,3 +14,12 @@ add_n_nums <- function(n) {
 n <- as.integer(readline("Enter the value of n: "))
 result <- add_n_nums(n)
 cat("Sum of", n, "numbers:", result, "\n")
+
+
+# ***OUTPUT***
+# Enter the value of n: 4
+# Enter number 1 : 6
+# Enter number 2 : 5
+# Enter number 3 : 7
+# Enter number 4 : 8
+# Sum of 4 numbers: 26

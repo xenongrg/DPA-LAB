@@ -11,3 +11,8 @@ while (temp_num > 0) {
     temp_num <- temp_num %/% 10
 }
 cat("Reverse of", num, "is :", rev_num, "\n")
+
+
+# ***OUTPUT***
+# Enter a number: 6578
+# Reverse of 6578 is : 8756

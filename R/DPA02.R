@@ -3,3 +3,8 @@
 
 input <- readline("Enter Input: ")
 cat("User Input =", input, "\n")
+
+
+# ***OUTPUT***
+# Enter Input: DPA
+# User Input = DPA

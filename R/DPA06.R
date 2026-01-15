@@ -12,3 +12,20 @@ cat("\nDiff of A and B:\n")
 print(mat_a - mat_b)
 cat("\nProduct of A and B:\n")
 print(mat_a %*% mat_b)
+
+
+# ***OUTPUT***
+# Sum of A and B:
+#      [,1] [,2]
+# [1,]    6   10
+# [2,]    8   12
+
+# Diff of A and B:
+#      [,1] [,2]
+# [1,]   -4   -4
+# [2,]   -4   -4
+
+# Product of A and B:
+#      [,1] [,2]
+# [1,]   23   31
+# [2,]   34   46

@@ -21,3 +21,9 @@ recur_factorial <- function(n) {
 n <- as.integer(readline("Enter the value of n: "))
 cat("Non-Recursive Factorial Value:", non_recur_factorial(n), "\n")
 cat("Recursive Factorial Value:", recur_factorial(n), "\n")
+
+
+# ***OUTPUT***
+# Enter the value of n: 4
+# Non-Recursive Factorial Value: 24
+# Recursive Factorial Value: 24

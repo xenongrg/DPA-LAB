@@ -7,3 +7,8 @@ for (i in 1:n) {
     sum <- sum + i
 }
 cat("Sum of 1 to", n, "=", sum, "\n")
+
+
+# ***OUTPUT***
+# Enter the value of n: 4
+# Sum of 1 to 4 = 10
