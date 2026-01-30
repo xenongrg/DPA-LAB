@@ -3,6 +3,7 @@
 x <- rnorm(50)
 y <- 2 * x + rnorm(50)
 sim_data <- data.frame(x, y)
+n <- nrow(sim_data)
 
 # K-Fold Cross-Validation Implementation
 k <- 5
